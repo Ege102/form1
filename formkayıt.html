@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gelişmiş form</title>
+  <style>
+    div.container {
+      border-radius: 2%;
+      background-color: white;
+      border: 5px solid black;
+      padding: 20px;
+      width: 660px;
+      height: 550px;
+      margin-top: 150px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #isim.isim {
+      font-style: italic;
+    }
+
+    #soyisim.soyisim {
+      color: royalblue;
+    }
+
+    input {
+      margin-top: 20px;
+      font-size: 1.5em;
+      border-radius: 4px;
+      border: 2.5px solid lightblue;
+      padding: 15px;
+
+    }
+
+    button {
+      color: white;
+      margin-top: 20px;
+      padding: 15px;
+      font-size: 1.5em;
+      border-radius: 10px;
+      border: 2.5px solid seagreen;
+      text-align: center;
+      text-decoration: none;
+      background-color: seagreen;
+      transition-duration: 0.4s;
+    }
+
+    button:hover {
+      background-color: white;
+      color: seagreen;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+
+<body style="background-color: white;">
+  <form>
+
+    <div class="container">
+      <div class="input-group">
+
+        <input type="text" id="isim" class="isim" placeholder="İsim">
+        <input type="text" id="soyisim" class="soyisim" placeholder="Soyisim">
+
+      </div>
+
+      <div class="input-group">
+
+        <input type="password" id="şifre" class="şifre" placeholder="Şifre">
+        <input type="password" id="tekrar-şifre" class="tekrar-şifre" placeholder="Tekrar şifre">
+
+      </div>
+
+      <div class="input-group">
+
+        <input type="email" id="e-posta" class="e-posta" placeholder="E-posta">
+        <input type="email" id="tekrar-e-posta" class="tekrar-e-posta" placeholder="Tekrar E-posta">
+
+      </div>
+
+      <div>
+        <input type="date">
+        <input type="file">
+
+      </div>
+
+      <div>
+
+        <button><a href="formgiris.html"> Hesabınız var mı?</button>
+        <button type="submit"><a href="kayıtyazısı.html">Bitir </a></button>
+      </div>
+
+    </div>
+
+
+  </form>
+
+
+</body>
+
+</html>
